@@ -12,3 +12,4 @@ instalar :
     import nltk
     nltk.download('punkt')
     ```
+    ya despues de que se ejecute sin errores lo puedes borrar
