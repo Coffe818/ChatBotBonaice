@@ -1,0 +1,173 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hola",
+          "¿Hay alguien ahi?",
+          "Buenos dias",
+          "Buenas tardes",
+          "¿Como estas?",
+          "¡Hey!"
+        ],
+        "responses": [
+          "¡Boni-dias! 😊 ¿Listo para refrescarte con un Bonice?",
+          "Bienvenido, gracias por visitarnos. ¿Te antoja un Boni-sabor?",
+          "¡Hola! ¿En que puedo ayudarte hoy? Tenemos muchos Bonice para escoger.",
+          "¡Boni-saludos! ¿Quieres saber mas sobre nuestros sabores y promociones?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Adios",
+          "Hasta luego",
+          "Nos vemos",
+          "Chao",
+          "Gracias, ya me voy"
+        ],
+        "responses": [
+          "¡Hasta luego y que tengas un Boni-dia refrescante!",
+          "Gracias por visitarnos, ¡vuelve pronto para mas Boni-sorpresas!",
+          "¡Adios! Cuando gustes, estamos aqui con mas Bonice.",
+          "¡Nos vemos! Recuerda que siempre hay un Bonice esperando por ti."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Gracias",
+          "Muchas gracias",
+          "Te lo agradezco",
+          "¡Que amable!",
+          "¡Mil gracias!"
+        ],
+        "responses": [
+          "¡De nada! Nos encanta refrescarte con Bonice.",
+          "¡Es un placer ayudarte! Siempre hay un Boni-sabor ideal para ti.",
+          "¡Gracias a ti! Recuerda que aqui siempre tendras un Boni-bienvenida."
+        ]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "¿Que sabores de Bonice tienes?",
+          "¿Que productos vendes?",
+          "¿Que tipos de Bonice tienen?",
+          "¿Que sabores tienes?"
+        ],
+        "responses": [
+          "Tenemos una gran variedad de Boni-sabores, como fresa, uva, mango, tamarindo, limon, y muchos mas.",
+          "Contamos con Bonice de sabores frutales y otros especiales como chamoy.",
+          "¿Buscas algo dulce o acido? ¡Tenemos Boni-sabores para todos los gustos!",
+          "Nuestros Boni-sabores incluyen fresa, uva, mango y muchos mas. ¡Prueba el de tamarindo con chamoy!"
+        ]
+      },
+      {
+        "tag": "prices",
+        "patterns": [
+          "¿Cuanto cuesta un Bonice?",
+          "¿Cual es el precio de los Bonice?",
+          "¿Que precio tienen los Bonice?",
+          "¿Cuanto valen?"
+        ],
+        "responses": [
+          "Cada Bonice cuesta solo $10 MXN. ¡Ideal para refrescarte sin gastar mucho!",
+          "Los Bonice tienen un precio de $10 MXN por unidad. ¡Perfecto para un antojo refrescante!",
+          "Cada Bonice vale $10 MXN. ¡Disfruta de un Boni-momento a un precio genial!"
+        ]
+      },
+      {
+        "tag": "promotions",
+        "patterns": [
+          "¿Tienes promociones?",
+          "¿Ofrecen descuentos?",
+          "¿Hay alguna promocion para Bonice?",
+          "¿Cuantos Bonice puedo comprar con descuento?"
+        ],
+        "responses": [
+          "¡Si! Al comprar 5 Bonice, el sexto es gratis.",
+          "Tenemos una Boni-promocion: si compras mas de 10 Bonice, obtienes un 10% de descuento.",
+          "Ofrecemos descuentos especiales en temporadas de calor. ¡Pregunta por nuestras Boni-promos!"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "¿Aceptan tarjeta de credito?",
+          "¿Puedo pagar con tarjeta?",
+          "¿Solo aceptan efectivo?",
+          "¿Puedo pagar con transferencia?",
+          "¿Aceptan pagos digitales?"
+        ],
+        "responses": [
+          "Aceptamos pagos en efectivo y tarjeta.",
+          "Puedes pagar en efectivo, tarjeta o transferencia bancaria.",
+          "Aceptamos pagos en efectivo y, en algunas ubicaciones, tambien tarjeta y pagos digitales."
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "¿Cuanto tarda la entrega?",
+          "¿Cuanto tarda en llegar mi Bonice?",
+          "¿Hacen envios?",
+          "¿Puedo pedir Bonice a domicilio?",
+          "¿Cuanto cuesta el envio de Bonice?"
+        ],
+        "responses": [
+          "La entrega suele tardar entre 1-2 dias en areas locales. Para distancias mayores, de 2 a 4 dias.",
+          "Los envios de Bonice tardan aproximadamente 1-2 dias en llegar.",
+          "Ofrecemos servicio a domicilio en algunas zonas. Consulta con nosotros para verificar la cobertura.",
+          "El envio tiene un costo adicional, dependiendo de tu ubicacion. Contactanos para mas detalles."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "¡Cuentame un chiste!",
+          "Dime algo divertido",
+          "¿Sabes algun chiste?",
+          "¿Tienes un chiste sobre Bonice?"
+        ],
+        "responses": [
+          "¿Por que el Bonice no fue a la fiesta? ¡Porque se derritio de la emocion!",
+          "¿Que le dijo un Bonice de limon a uno de fresa? ¡No te pongas acido!",
+          "¿Que hace un Bonice en la playa? ¡Refrescarse!",
+          "¿Por que el Bonice siempre esta feliz? ¡Porque es fresco por naturaleza!"
+        ]
+      },
+      {
+        "tag": "flavors",
+        "patterns": [
+          "¿Tienen Bonice de fresa?",
+          "¿Tienen Bonice de uva?",
+          "¿Que sabores de frutas tienen?",
+          "¿Hay Bonice de chamoy?",
+          "¿Que sabores exoticos tienen?"
+        ],
+        "responses": [
+          "¡Claro! Tenemos Bonice de fresa, uva, mango, limon, piña colada, y tamarindo con chamoy.",
+          "Contamos con sabores como fresa, uva, mango, limon y algunos sabores exoticos como tamarindo con chamoy.",
+          "Si buscas algo refrescante y diferente, ¡te recomendamos nuestro Boni-sabor de tamarindo con chamoy!",
+          "¡Ofrecemos una variedad refrescante y deliciosa! ¿Cual quieres probar hoy?"
+        ]
+      },
+      {
+        "tag": "locations",
+        "patterns": [
+          "¿Donde estan ubicados?",
+          "¿Tienen tiendas?",
+          "¿Donde puedo comprar Bonice?",
+          "¿Tienen puntos de venta?"
+        ],
+        "responses": [
+          "Estamos en varios puntos de venta y tiendas locales. ¡Pregunta en tu area si tienen Bonice!",
+          "Puedes encontrar Bonice en puestos ambulantes y tiendas de conveniencia. ¡Es facil encontrarlos!",
+          "Estamos disponibles en tiendas locales y en muchos puntos de venta por toda la ciudad.",
+          "Tenemos presencia en tiendas de conveniencia y en otros lugares. ¡Seguro hay un Bonice cerca de ti!"
+        ]
+      }
+    ]
+  }
+  
