@@ -83,7 +83,8 @@
           "¿Tienes promociones?",
           "¿Ofrecen descuentos?",
           "¿Hay alguna promocion para Bonice?",
-          "¿Cuantos Bonice puedo comprar con descuento?"
+          "¿Cuantos Bonice puedo comprar con descuento?",
+          "Boni-promos"
         ],
         "responses": [
           "¡Si! Al comprar 5 Bonice, el sexto es gratis.",
