@@ -13,17 +13,17 @@ def tokenize(sentence):
 ''''
 ejemplo de uso
     print(tokenize("A cuento esta el bonice?"))
-    ['A', 'cuento', 'esta', 'el', 'bonice', '?']
+    ['A', 'cuanto', 'esta', 'el', 'bonice', '?']
 '''
 
 def stem(word):
     return stemmer.stem(word.lower())
 '''
 Ejemplo de uso
-    palabras = ["jugador", "jugdores", "jugadoras", "jugar", "juega", "jugaron", "jugaran", "jugaria", "jugarian", "jugarian"]
+    palabras = ["jugador", "jugadores", "jugadoras", "jugar", "juega", "jugaron", "jugaran", "jugaria", "jugarian", "jugarian"]
     stemmed_palabras = [stem(p) for p in palabras]
     print (stemmed_palabras)
-    ['jugador', 'jugdor', 'jugador', 'jug', 'jueg', 'jug', 'jug', 'jugari', 'jugari', 'jugari']
+    ['jugador', 'jugador', 'jugador', 'jug', 'jueg', 'jug', 'jug', 'jugari', 'jugari', 'jugari']
 '''
 
 
