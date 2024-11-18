@@ -16,4 +16,4 @@ instalar :
     ya despues de que se ejecute sin errores lo puedes borrar
 
 En caso de que siga marcando error el nltk al no encontrar 'punkt' intenta usar nltk.download('punkt_tab')
-holaaaaaaa
+
